@@ -1,0 +1,43 @@
+
+{
+    "data":[
+        {
+            "category": "Electronic",
+            "items" : [
+                "TV",
+                "Iron",
+                "Refrigerator"
+            ]
+        },
+        {
+            "category": "Men",
+            "items" : [
+                "Jeans",
+                "Trouser",
+                "Shirt",
+                "T-Shirt",
+                "Jeans",
+                "Trouser",
+                "Shirt"
+            ]
+        },
+        
+        {
+            "category": "Women",
+            "items" : [
+                "Crop-top",
+                "Lipstick"
+            ]
+        },
+        {
+            "category": "Kids",
+            "items" : [
+                "BabyFood",
+                "Baby Hats",
+                "Toys",
+                "Remote Car ",
+                "Remote Car "
+            ]
+        }
+    ]
+}
