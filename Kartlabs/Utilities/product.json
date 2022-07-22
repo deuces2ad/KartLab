@@ -4,39 +4,94 @@
         {
             "category": "Electronic",
             "items" : [
-                "TV",
-                "Iron",
-                "Refrigerator"
+                {
+                    "item_Name" : "TV",
+                    "item_price" : 122
+                },
+                {
+                    "item_Name" : "Iron",
+                    "item_price" : 122
+                },
+                {
+                    "item_Name" :  "Refrigerator",
+                    "item_price" : 122
+                }
             ]
         },
         {
             "category": "Men",
             "items" : [
-                "Jeans",
-                "Trouser",
-                "Shirt",
-                "T-Shirt",
-                "Jeans",
-                "Trouser",
-                "Shirt"
+                {
+                    "item_Name" :  "Jeans",
+                    "item_price" : 122
+                },
+                {
+                    "item_Name" :   "Trouser",
+                    "item_price" : 122
+                },
+                
+                {
+                    "item_Name" :  "Shirt",
+                    "item_price" : 122
+                },
+                
+                {
+                    "item_Name" :  "T-Shirt",
+                    "item_price" : 122
+                },
+               
+               {
+                   "item_Name" :   "Jeans",
+                   "item_price" : 122
+               },
+                
+                {
+                    "item_Name" :  "Trouser",
+                    "item_price" : 122
+                },
+               
+               {
+                   "item_Name" :  "Shirt",
+                   "item_price" : 122
+               }
             ]
         },
-        
         {
             "category": "Women",
             "items" : [
-                "Crop-top",
-                "Lipstick"
+                {
+                    "item_Name" :   "Crop-top",
+                    "item_price" : 122
+                },
+                
+                {
+                    "item_Name" :  "Lipstick",
+                    "item_price" : 122
+                }
             ]
         },
         {
             "category": "Kids",
             "items" : [
-                "BabyFood",
-                "Baby Hats",
-                "Toys",
-                "Remote Car ",
-                "Remote Car "
+                {
+                    "item_Name" :  "BabyFood",
+                    "item_price" : 122
+                },
+                
+                {
+                    "item_Name" : "Baby Hats",
+                    "item_price" : 122
+                },
+                
+                {
+                    "item_Name" :  "Toys",
+                    "item_price" : 122
+                },
+               
+               {
+                   "item_Name" :  "Remote Car ",
+                   "item_price" : 122
+               }
             ]
         }
     ]

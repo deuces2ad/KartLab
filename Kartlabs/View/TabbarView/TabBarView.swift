@@ -2,7 +2,7 @@
 //  TabbarView.swift
 //  Kartlabs
 //
-//  Created by abhishek dhiman on 21/07/22.
+//  Created by Abhishek dhiman on 21/07/22.
 //
 
 import SwiftUI
@@ -10,9 +10,11 @@ import SwiftUI
 struct TabBarView: View {
     
     //MARK: - Properties
-    @StateObject var viewRouter: ViewRouter
+    @ObservedObject var viewRouter: ViewRouter
     @State var showPopUp = false
-    
+    @ObservedObject var tabbarViewModel : TabBarViewModel = TabBarViewModel()
+   
+   
     //MARK: - Body
     var body: some View {
         NavigationView{
@@ -23,9 +25,11 @@ struct TabBarView: View {
                     switch viewRouter.currentPage {
                     case .home:
                         
-                    ProductCategoriesContainer()
+                    ProductCategoriesView()
                             .navigationTitle("Home")
                             .navigationBarTitleDisplayMode(NavigationBarItem.TitleDisplayMode.inline)
+                            
+                    
                         
                     case .productList:
                         ProductView()
@@ -53,6 +57,7 @@ struct TabBarView: View {
                 .edgesIgnoringSafeArea(.bottom)
             }
         }
+        .environmentObject(tabbarViewModel)
     }
 }
 

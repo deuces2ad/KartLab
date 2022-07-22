@@ -2,17 +2,19 @@
 //  ProductDetailView.swift
 //  Kartlabs
 //
-//  Created by abhishek dhiman on 21/07/22.
+//  Created by Abhishek dhiman on 21/07/22.
 //
 
 import SwiftUI
 
 struct ProductDetailView: View {
+    @EnvironmentObject var productCategoriesViewModel : ProductCategoriesViewModel
+    
     var body: some View {
         VStack{
             ZStack{
                 Color.blue
-                Text("ProductDetailView")
+                Text(productCategoriesViewModel.selectedItemInfo.productTitle)
             }
         }
         .edgesIgnoringSafeArea(.bottom)

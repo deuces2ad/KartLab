@@ -2,7 +2,7 @@
 //  ProductCell.swift
 //  Kartlabs
 //
-//  Created by abhishek dhiman on 21/07/22.
+//  Created by Abhishek dhiman on 21/07/22.
 //
 
 import Foundation
@@ -31,6 +31,7 @@ class ProductCell : UICollectionViewCell {
         lbl.font = UIFont.systemFont(ofSize: 14, weight: .medium)
         lbl.text = "Jeans"
         lbl.textAlignment = .center
+        lbl.adjustsFontSizeToFitWidth = true
         return lbl
     }()
     
@@ -58,4 +59,6 @@ class ProductCell : UICollectionViewCell {
 struct ItemInfo {
     let productImg : String
     let productTitle : String
+    let productPrice : Int
+    static let dummyItem = ItemInfo(productImg: "", productTitle: "", productPrice: 0)
 }
