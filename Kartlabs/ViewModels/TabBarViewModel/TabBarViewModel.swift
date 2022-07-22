@@ -2,7 +2,7 @@
 //  TabBarViewModel.swift
 //  Kartlabs
 //
-//  Created by Abhishek dhiman on 22/07/22.
+//  Created by abhishek dhiman on 22/07/22.
 //
 
 import Foundation

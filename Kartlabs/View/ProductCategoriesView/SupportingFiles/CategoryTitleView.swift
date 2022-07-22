@@ -2,7 +2,7 @@
 //  CategoryTitleView.swift
 //  Kartlabs
 //
-//  Created by Abhishek dhiman on 21/07/22.
+//  Created by abhishek dhiman on 21/07/22.
 //
 
 import Foundation
