@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct ProductDetailView: View {
+    @EnvironmentObject var productCategoriesViewModel : ProductCategoriesViewModel
+    
     var body: some View {
         VStack{
             ZStack{
                 Color.blue
-                Text("ProductDetailView")
+                Text(productCategoriesViewModel.selectedItemInfo.productTitle)
             }
         }
         .edgesIgnoringSafeArea(.bottom)

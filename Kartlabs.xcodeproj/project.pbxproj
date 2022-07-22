@@ -14,10 +14,11 @@
 		990842532889673C00BA2290 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 990842522889673C00BA2290 /* product.json */; };
 		9908425628896CB700BA2290 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9908425528896CB700BA2290 /* ProductList.swift */; };
 		990842582889762300BA2290 /* CategoryTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990842572889762300BA2290 /* CategoryTitleView.swift */; };
-		9908425A2889772300BA2290 /* ProductCategoriesContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990842592889772300BA2290 /* ProductCategoriesContainer.swift */; };
+		9908425A2889772300BA2290 /* ProductCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990842592889772300BA2290 /* ProductCategoriesView.swift */; };
 		9908425D28897B4D00BA2290 /* DesignCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9908425C28897B4D00BA2290 /* DesignCollectionViewLayout.swift */; };
 		9908425F28897CBE00BA2290 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9908425E28897CBE00BA2290 /* ProductCell.swift */; };
 		9908426128897E6300BA2290 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9908426028897E6300BA2290 /* UIView+Constraints.swift */; };
+		99084265288A73F600BA2290 /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99084264288A73F500BA2290 /* TabBarViewModel.swift */; };
 		9942069E28891B680084B0F8 /* KartlabsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9942069D28891B680084B0F8 /* KartlabsApp.swift */; };
 		994206A028891B680084B0F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9942069F28891B680084B0F8 /* ContentView.swift */; };
 		994206A228891B6D0084B0F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994206A128891B6D0084B0F8 /* Assets.xcassets */; };
@@ -28,6 +29,8 @@
 		994206C028891FBB0084B0F8 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994206BF28891FBB0084B0F8 /* TabBarView.swift */; };
 		994206C3288922BD0084B0F8 /* TabBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994206C2288922BD0084B0F8 /* TabBarIcon.swift */; };
 		994206C5288922E70084B0F8 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994206C4288922E70084B0F8 /* ViewRouter.swift */; };
+		99B3C05D288AA4D400DF7BD7 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B3C05C288AA4D400DF7BD7 /* ProductItemView.swift */; };
+		99B3C060288AB2B900DF7BD7 /* ProductCategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B3C05F288AB2B900DF7BD7 /* ProductCategoriesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,10 +41,11 @@
 		990842522889673C00BA2290 /* product.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
 		9908425528896CB700BA2290 /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
 		990842572889762300BA2290 /* CategoryTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTitleView.swift; sourceTree = "<group>"; };
-		990842592889772300BA2290 /* ProductCategoriesContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCategoriesContainer.swift; sourceTree = "<group>"; };
+		990842592889772300BA2290 /* ProductCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCategoriesView.swift; sourceTree = "<group>"; };
 		9908425C28897B4D00BA2290 /* DesignCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCollectionViewLayout.swift; sourceTree = "<group>"; };
 		9908425E28897CBE00BA2290 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		9908426028897E6300BA2290 /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		99084264288A73F500BA2290 /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
 		9942069A28891B680084B0F8 /* Kartlabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kartlabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9942069D28891B680084B0F8 /* KartlabsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartlabsApp.swift; sourceTree = "<group>"; };
 		9942069F28891B680084B0F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 		994206BF28891FBB0084B0F8 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		994206C2288922BD0084B0F8 /* TabBarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarIcon.swift; sourceTree = "<group>"; };
 		994206C4288922E70084B0F8 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		99B3C05C288AA4D400DF7BD7 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
+		99B3C05F288AB2B900DF7BD7 /* ProductCategoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCategoriesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				99084248288931A300BA2290 /* ProductView.swift */,
+				99B3C05C288AA4D400DF7BD7 /* ProductItemView.swift */,
 			);
 			path = ProductView;
 			sourceTree = "<group>";
@@ -102,7 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				990842572889762300BA2290 /* CategoryTitleView.swift */,
-				990842592889772300BA2290 /* ProductCategoriesContainer.swift */,
+				990842592889772300BA2290 /* ProductCategoriesView.swift */,
 				9908425C28897B4D00BA2290 /* DesignCollectionViewLayout.swift */,
 				9908425E28897CBE00BA2290 /* ProductCell.swift */,
 			);
@@ -115,6 +122,14 @@
 				9908426028897E6300BA2290 /* UIView+Constraints.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		99084266288A856C00BA2290 /* TabBarViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				99084264288A73F500BA2290 /* TabBarViewModel.swift */,
+			);
+			path = TabBarViewModel;
 			sourceTree = "<group>";
 		};
 		9942069128891B680084B0F8 = {
@@ -160,6 +175,8 @@
 		994206AB28891C750084B0F8 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				99B3C05E288AB2A900DF7BD7 /* ProductCategoriesViewModel */,
+				99084266288A856C00BA2290 /* TabBarViewModel */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -238,6 +255,14 @@
 			path = ProductCategoriesView;
 			sourceTree = "<group>";
 		};
+		99B3C05E288AB2A900DF7BD7 /* ProductCategoriesViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				99B3C05F288AB2B900DF7BD7 /* ProductCategoriesViewModel.swift */,
+			);
+			path = ProductCategoriesViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -310,7 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99084249288931A300BA2290 /* ProductView.swift in Sources */,
-				9908425A2889772300BA2290 /* ProductCategoriesContainer.swift in Sources */,
+				9908425A2889772300BA2290 /* ProductCategoriesView.swift in Sources */,
 				994206C028891FBB0084B0F8 /* TabBarView.swift in Sources */,
 				9908426128897E6300BA2290 /* UIView+Constraints.swift in Sources */,
 				994206A028891B680084B0F8 /* ContentView.swift in Sources */,
@@ -321,8 +346,11 @@
 				994206B428891DAA0084B0F8 /* CompositionalGroupAlignment.swift in Sources */,
 				994206B728891DDF0084B0F8 /* Log.swift in Sources */,
 				9908424C2889322500BA2290 /* GiftRegistryView.swift in Sources */,
+				99B3C060288AB2B900DF7BD7 /* ProductCategoriesViewModel.swift in Sources */,
 				990842582889762300BA2290 /* CategoryTitleView.swift in Sources */,
+				99084265288A73F600BA2290 /* TabBarViewModel.swift in Sources */,
 				9908425F28897CBE00BA2290 /* ProductCell.swift in Sources */,
+				99B3C05D288AA4D400DF7BD7 /* ProductItemView.swift in Sources */,
 				99084251288944BB00BA2290 /* ProductCategories.swift in Sources */,
 				9908425628896CB700BA2290 /* ProductList.swift in Sources */,
 				9942069E28891B680084B0F8 /* KartlabsApp.swift in Sources */,

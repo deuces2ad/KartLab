@@ -9,24 +9,29 @@ import SwiftUI
 
 struct ProductView: View {
     @State var isLinkActive : Bool = false
+    @State var searchableTxt : String = ""
+    @EnvironmentObject var tabbarVM : TabBarViewModel
+    
     var body: some View {
         VStack{
-            ZStack{
-                Color.yellow
-                Text("Product View")
-            }
-         
-            Button(action: {
-                isLinkActive.toggle()
-            }) {
-                Text("Navigate")
-            }
-            NavigationLink(destination: ProductDetailView(), isActive: $isLinkActive){
-                EmptyView()
-            }
-           
-        }
-       
+            HStack{
+                Image(systemName: "magnifyingglass")
+                    .resizable()
+                    .frame(width: 25, height: 25)
+                TextField("Search", text: $searchableTxt)
+                    
+            }//HSTACK
+            .padding(.horizontal)
+            
+            ScrollView{
+                ForEach(tabbarVM.productCategoriesList?.data ?? [Product.dummyProduct]){ categories in
+                    ForEach(categories.items){ item in
+//                        Text(item.itemName)
+                        ProductItemView(itemName: item.itemName, itemPrice: "Rs \(item.itemPrice)")
+                    }
+                }//OuterForEach to extract sections...
+            }//ScrollView
+        }//VSTACK
     }
 }
 

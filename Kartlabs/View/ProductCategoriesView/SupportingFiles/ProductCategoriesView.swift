@@ -8,9 +8,11 @@
 import Foundation
 import SwiftUI
 
-struct ProductCategoriesContainer : UIViewControllerRepresentable {
+struct ProductCategoriesView : UIViewControllerRepresentable {
+
+    @EnvironmentObject var tabbarVM : TabBarViewModel
     func makeUIViewController(context: Context) -> UIViewController {
-        return ProductCategories()
+        return ProductCategories(productListCategories: tabbarVM.productCategoriesList ?? ProductList.dummyData)
     }
     
     func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
