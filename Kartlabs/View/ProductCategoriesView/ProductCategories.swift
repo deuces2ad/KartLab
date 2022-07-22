@@ -86,7 +86,7 @@ class ProductCategories : UICollectionViewController {
             return
         }
         
-        let selectedItemInfo = ItemInfo(productImg: "", productTitle: item.itemName, productPrice: item.itemPrice)
+        let selectedItemInfo = ItemInfo(productImg: " ", productTitle: item.itemName, productPrice: item.itemPrice)
         
         let productView = ProductDetailView()
         productCategoriesViewModel.selectedItemInfo = selectedItemInfo
