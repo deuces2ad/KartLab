@@ -2,7 +2,7 @@
 //  ProductCategories.swift
 //  Kartlabs
 //
-//  Created by abhishek dhiman on 21/07/22.
+//  Created by Abhishek dhiman on 21/07/22.
 //
 
 
@@ -86,7 +86,7 @@ class ProductCategories : UICollectionViewController {
             return
         }
         
-        let selectedItemInfo = ItemInfo(productImg: "", productTitle: item.itemName, productPrice: item.itemPrice)
+        let selectedItemInfo = ItemInfo(productImg: " ", productTitle: item.itemName, productPrice: item.itemPrice)
         
         let productView = ProductDetailView()
         productCategoriesViewModel.selectedItemInfo = selectedItemInfo
