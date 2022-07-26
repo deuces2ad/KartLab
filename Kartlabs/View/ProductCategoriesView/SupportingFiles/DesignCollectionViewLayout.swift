@@ -27,7 +27,7 @@ class DesignCollectionViewLayout {
             let section = NSCollectionLayoutSection(group: group)
             section.contentInsets.leading = 16
             section.boundarySupplementaryItems = [
-                .init(layoutSize: .init(widthDimension: .fractionalWidth(1), heightDimension: .absolute(50)), elementKind: ProductCategories.containerHeaderId, alignment: .topLeading)
+                .init(layoutSize: .init(widthDimension: .fractionalWidth(1), heightDimension: .absolute(50)), elementKind: Constants.containerHeaderId, alignment: .topLeading)
                 
             ]
             return section

@@ -2,95 +2,125 @@
 {
     "data":[
         {
-            "category": "Electronic",
+            "category": " Electronic",
             "items" : [
                 {
                     "item_Name" : "TV",
-                    "item_price" : 122
+                    "item_price" : 122,
+                    "item_image" : "TV"
+                    
                 },
                 {
                     "item_Name" : "Iron",
-                    "item_price" : 122
+                    "item_price" : 122,
+                    "item_image" : "Iron"
                 },
                 {
                     "item_Name" :  "Refrigerator",
-                    "item_price" : 122
+                    "item_price" : 122,
+                    "item_image" :  "Refrigerator"
                 }
             ]
         },
         {
-            "category": "Men",
+            "category": " Men",
             "items" : [
                 {
                     "item_Name" :  "Jeans",
-                    "item_price" : 122
+                    "item_price" : 122,
+                    "item_image" :  "Jeans"
                 },
                 {
                     "item_Name" :   "Trouser",
-                    "item_price" : 122
+                    "item_price" : 122,
+                    "item_image" :  "Trouser"
                 },
                 
                 {
                     "item_Name" :  "Shirt",
-                    "item_price" : 122
+                    "item_price" : 122,
+                    "item_image" :  "Shirt"
                 },
                 
                 {
                     "item_Name" :  "T-Shirt",
-                    "item_price" : 122
+                    "item_price" : 122,
+                    "item_image" :  "T-Shirt"
                 },
                
                {
                    "item_Name" :   "Jeans",
-                   "item_price" : 122
+                   "item_price" : 122,
+                   "item_image" :   "Jeans"
                },
                 
                 {
-                    "item_Name" :  "Trouser",
-                    "item_price" : 122
+                    "item_Name" :  "Jacket",
+                    "item_price" : 122,
+                    "item_image" :  "Jacket"
                 },
                
                {
                    "item_Name" :  "Shirt",
-                   "item_price" : 122
+                   "item_price" : 122,
+                   "item_image" :  "Shirt"
                }
             ]
         },
         {
-            "category": "Women",
+            "category": " Women",
             "items" : [
                 {
-                    "item_Name" :   "Crop-top",
-                    "item_price" : 122
+                    "item_Name" :   "Makeup",
+                    "item_price" : 122,
+                    "item_image" :   "Makeup"
+                },
+                
+                {
+                    "item_Name" :   "EyeLiner",
+                    "item_price" : 122,
+                    "item_image" :   "EyeLiner"
                 },
                 
                 {
                     "item_Name" :  "Lipstick",
-                    "item_price" : 122
+                    "item_price" : 122,
+                    "item_image" :  "Lipstick"
+                },
+                
+                {
+                    "item_Name" :  "Ladies Bag",
+                    "item_price" : 122,
+                    "item_image" :  "Ladies Bag"
                 }
+                
             ]
         },
         {
-            "category": "Kids",
+            "category": " Kids",
             "items" : [
                 {
                     "item_Name" :  "BabyFood",
-                    "item_price" : 122
+                    "item_price" : 122,
+                    "item_image" :  "BabyFood"
                 },
                 
                 {
-                    "item_Name" : "Baby Hats",
-                    "item_price" : 122
+                    "item_Name" : "BabyHats",
+                    "item_price" : 122,
+                    "item_image" : "BabyHats"
                 },
                 
                 {
-                    "item_Name" :  "Toys",
-                    "item_price" : 122
+                    "item_Name" :  "Teddybear",
+                    "item_price" : 122,
+                    "item_image" :  "Teddybear"
                 },
                
                {
-                   "item_Name" :  "Remote Car ",
-                   "item_price" : 122
+                   "item_Name" :  "RemoteCar",
+                   "item_price" : 122,
+                   "item_image" :  "RemoteCar"
                }
             ]
         }

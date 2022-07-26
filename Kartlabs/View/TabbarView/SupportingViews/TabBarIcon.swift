@@ -30,6 +30,6 @@ struct TabBarIcon: View {
             .onTapGesture {
                 viewRouter.currentPage = assignedPage
             }
-            .foregroundColor(viewRouter.currentPage == assignedPage ? Color("TabBarHighlight") : .gray)
+            .foregroundColor(viewRouter.currentPage == assignedPage ? Color(AppConfig.appColor) : .gray)
     }
 }

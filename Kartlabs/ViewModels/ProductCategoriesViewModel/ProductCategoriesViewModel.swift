@@ -9,6 +9,6 @@ import Foundation
 
 class ProductCategoriesViewModel: ObservableObject {
     
-    @Published var selectedItemInfo : ItemInfo = ItemInfo.dummyItem
+    @Published var selectedItemInfo : Item = Item.dummyItem
     
 }

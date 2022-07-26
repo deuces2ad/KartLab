@@ -9,7 +9,17 @@ import Foundation
 import UIKit
 
 class CategoryTitleView : UICollectionReusableView {
-    let headerLbl = UILabel()
+
+    
+    lazy var headerLbl : UILabel = {
+        let lbl = UILabel()
+        lbl.adjustsFontSizeToFitWidth = true
+        lbl.font = .systemFont(ofSize: 16, weight: .bold)
+        lbl.backgroundColor = AppConfig.appThemeColor
+        lbl.textColor = .black
+        return lbl
+    }()
+    
     
     override init (frame :CGRect){
         super.init(frame: frame)
@@ -22,6 +32,6 @@ class CategoryTitleView : UICollectionReusableView {
     
     override func layoutSubviews(){
        super.layoutSubviews()
-        headerLbl.frame = bounds
+        headerLbl.anchor(top: topAnchor, leading: leadingAnchor, bottom: bottomAnchor, trailing: trailingAnchor,padding: .init(top: 0, left: 10, bottom: 0, right: 30))
     }
 }
