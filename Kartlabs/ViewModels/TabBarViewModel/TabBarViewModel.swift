@@ -2,18 +2,24 @@
 //  TabBarViewModel.swift
 //  Kartlabs
 //
-//  Created by Abhishek dhiman on 22/07/22.
+//  Created by abhishek dhiman on 22/07/22.
 //
 
 import Foundation
 
 class TabBarViewModel : ObservableObject {
     
-    @Published var productCategoriesList : ProductList? = nil
+    //MARK: - Properties
+    
+    @Published var productCategoriesList : ShopCategoriesList? = nil
+    @Published var cartItemsList = [Item]()
     
     init(){
         parseJson()
+       
     }
+    
+    //MARK: - Methods
     
     func parseJson(){
         guard let path = Bundle.main.path(forResource: "product", ofType: "json") else {
@@ -23,7 +29,7 @@ class TabBarViewModel : ObservableObject {
         let url = URL(fileURLWithPath: path)
         do {
             let jsonData = try Data(contentsOf: url)
-            productCategoriesList = try JSONDecoder().decode(ProductList.self, from: jsonData)
+            productCategoriesList = try JSONDecoder().decode(ShopCategoriesList.self, from: jsonData)
             
             if let results = productCategoriesList {
                 Log.echo(key: "RESULT", text: results)

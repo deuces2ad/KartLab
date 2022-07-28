@@ -2,7 +2,7 @@
 //  ProductCell.swift
 //  Kartlabs
 //
-//  Created by Abhishek dhiman on 21/07/22.
+//  Created by abhishek dhiman on 21/07/22.
 //
 
 import Foundation
@@ -14,7 +14,6 @@ class ProductCell : UICollectionViewCell {
         super.layoutSubviews()
         loadUIViews()
         layoutUI()
-        
     }
     
     //MARK: - Propterties
@@ -22,15 +21,14 @@ class ProductCell : UICollectionViewCell {
     lazy var productImage : UIImageView = {
         let iv = UIImageView()
         iv.contentMode = .scaleAspectFit
-        iv.backgroundColor = .red
         return iv
     }()
     
     lazy var productTitleLbl : UILabel = {
         let lbl = UILabel()
         lbl.font = UIFont.systemFont(ofSize: 14, weight: .medium)
-        lbl.text = "Jeans"
         lbl.textAlignment = .center
+        lbl.textColor = .lightGray
         lbl.adjustsFontSizeToFitWidth = true
         return lbl
     }()
@@ -39,7 +37,7 @@ class ProductCell : UICollectionViewCell {
     //MARK: - Methods
     
     func fillInfo ( info : ItemInfo){
-//        self.productImage.image = info.productImg
+        self.productImage.image = UIImage(named: (info.productImg ?? "meme"))
         self.productTitleLbl.text = info.productTitle
     }
     
@@ -57,8 +55,8 @@ class ProductCell : UICollectionViewCell {
 
 
 struct ItemInfo {
-    let productImg : String
-    let productTitle : String
-    let productPrice : Int
-    static let dummyItem = ItemInfo(productImg: "", productTitle: "", productPrice: 0)
+    let productImg : String?
+    let productTitle : String?
+    let productPrice : Int?
+    static let dummyItem = ItemInfo(productImg: "meme", productTitle: "Shirt", productPrice: 124)
 }

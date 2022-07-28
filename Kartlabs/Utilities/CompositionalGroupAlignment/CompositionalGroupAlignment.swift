@@ -2,7 +2,7 @@
 //  CompositionalGroupAlignment.swift
 //  MVCWithUIKIt
 //
-//  Created by Abhishek dhiman on 12/07/22.
+//  Created by abhishek dhiman on 12/07/22.
 //
 
 import UIKit

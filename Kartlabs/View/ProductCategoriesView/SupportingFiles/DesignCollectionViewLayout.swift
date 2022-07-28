@@ -2,7 +2,7 @@
 //  DesignCollectionViewLayout.swift
 //  Kartlabs
 //
-//  Created by Abhishek dhiman on 21/07/22.
+//  Created by abhishek dhiman on 21/07/22.
 //
 
 import Foundation
@@ -27,7 +27,7 @@ class DesignCollectionViewLayout {
             let section = NSCollectionLayoutSection(group: group)
             section.contentInsets.leading = 16
             section.boundarySupplementaryItems = [
-                .init(layoutSize: .init(widthDimension: .fractionalWidth(1), heightDimension: .absolute(50)), elementKind: ProductCategories.containerHeaderId, alignment: .topLeading)
+                .init(layoutSize: .init(widthDimension: .fractionalWidth(1), heightDimension: .absolute(50)), elementKind: Constants.containerHeaderId, alignment: .topLeading)
                 
             ]
             return section
